@@ -6,7 +6,7 @@ const app = express();
 
 // Set up mongoose connection
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/productstutorial', {
+mongoose.connect('mongodb://root:fpEvTQWv5iYnZzha@127.0.0.1:27017/productstutorial?authSource=admin', {
   useNewUrlParser: true,
   connectTimeoutMS: 750,
 });
