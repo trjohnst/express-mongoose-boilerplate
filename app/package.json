@@ -1,7 +1,7 @@
 {
-  "name": "products-app",
+  "name": "express-mongoose-boilerplate-app",
   "version": "1.0.0",
-  "description": "https://codeburst.io/writing-a-crud-app-with-node-js-and-mongodb-e0827cbbdafb",
+  "description": "Created and expanded upon from these instructions: https://codeburst.io/writing-a-crud-app-with-node-js-and-mongodb-e0827cbbdafb",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
