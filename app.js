@@ -1,7 +1,9 @@
 //app.js
+const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
-const product = require('./routes/product.route'); // Imports routes for the products
+const product = require('./routes/product.routes');
+const views = require('./routes/views.routes');
 const app = express();
 
 // Set up mongoose connection
@@ -16,7 +18,10 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
-app.use('/products', product);
+app.use('/api/products', product);
+
+app.set('view engine', 'pug');
+app.use('/', views);
 
 let port = 1234;
 
