@@ -17,4 +17,4 @@ npm i
 ./start-server.sh
 ```
 
-You will not be able to view the app at [localhost:1234](http://localhost:1234/)
+You will now be able to view the app at [localhost:1234](http://localhost:1234/)
