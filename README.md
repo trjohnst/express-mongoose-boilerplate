@@ -3,7 +3,7 @@ This is a boilerplate repo for express apps backed by MongoDB and was built usin
 
 It provides boilerplate API methods to create, read, update and delete models from an API and store them in MongoDB.
 
-MongoDB is run in a docker container and mounted to the local file system for easy persistence. This example uses MongoDB 3.6.
+MongoDB is run in a docker container and mounted to the local file system for easy persistence. This example uses MongoDB 3.6. You can use [docker documentation](https://docs.docker.com/) to install docker on your OS.
 
 # Usage
 
